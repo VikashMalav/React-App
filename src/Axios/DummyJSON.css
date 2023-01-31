@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    background-color: white;
+    margin-top: 20px;
+}
+
+h1 {
+    display: inline;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    border-radius: 30px;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 7px solid rgb(7, 203, 247);
+    border-top: 7px solid rgb(136, 244, 3);
+    font-style:italic ;
+    letter-spacing: 5px;
+}
+
+.main-box {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    position: relative;
+    background-color: rgba(189, 220, 220, 0.367);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid rgb(9, 5, 0);
+    border-radius: 15px;
+    transition: vik 1s ease 0s;
+    /* height: 400px; */
+    /* overflow-y: hidden; */
+}
+
+.box img {
+
+    width: 260px;
+}
+
+h2,
+h4,
+h3 {
+    background-color: transparent;
+    margin: 10px;
+}
+h3{
+    color: rgb(115, 79, 244);
+}
+
+p {
+    background-color: transparent;
+    color: rgba(16, 12, 12, 0.743);
+}
+
+img:hover {
+    box-shadow: 10px 10px 35px black;
+}
+
+button {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 9);
+    color: rgb(251, 248, 248);
+}
+
+.vik {
+    position: absolute;
+left: 4px;
+top: 5px;    
+    display: inline;
+    /* width: 30px ; */
+}
+
+.vik:hover {
+    color: rgb(255, 0, 0);
+}

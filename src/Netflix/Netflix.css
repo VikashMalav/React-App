@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.logo,h3{
+    font-size:50px ;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(248, 6, 58);
+}
+
+img{
+    width: 300px;
+    height: 350px;
+}
+.flex{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+}
+.heading{
+    color: rgb(250, 252, 253);
+    font-size: 45px;
+    margin: 10px 5px;
+}
+.flex::-webkit-scrollbar{
+
+    display: none;
+}
+.banner{
+
+    height: 100vh;
+}
