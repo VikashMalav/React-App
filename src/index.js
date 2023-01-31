@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NetFlix from './Axios/NetFlix';
+// import NetFlix from './Axios/NetFlix';
 // import TodoList from './Todo/Todo2';
 // import DummyJSON from './Axios/DummyJSON';
 // import Tmdb from './Axios/Tmdb';
 // import Todo from './Todo/Todo';
 // import './App.css';
 // import Counter from './App';
+import App from './React Router/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <NetFlix/>
+  <App/>
+  // <NetFlix/>
   // <Tmdb/>
   // <DummyJSON/>
   // <Counter/>
