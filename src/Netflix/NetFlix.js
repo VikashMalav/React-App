@@ -3,12 +3,15 @@ import requests from './NetflixList'
 import MovieRow from './MovieRow'
 import Banner from './Banner'
 import './Netflix.css'
+import Navbar from './Navbar'
 
 function NetFlix() {
 
     return ( 
   <>
-  <h1 className='logo'>NetFlix</h1>
+  <Navbar/>
+  {/* <h1 className='logo'>NetFlix</h1> */}
+
   <div><Banner/></div>
   
   <div><MovieRow heading='Trending' request={requests.fetchTrending} /></div>

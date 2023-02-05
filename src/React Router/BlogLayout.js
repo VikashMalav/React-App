@@ -1,9 +1,10 @@
 import React from 'react'
-import Outlet from 'react-router-dom'
+import{Outlet} from 'react-router-dom'
 
 function BlogLayout() {
-  return (
+  return (<>
     <Outlet/>
+  </>
   )
 }
 

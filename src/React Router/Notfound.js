@@ -6,7 +6,7 @@ function Notfound() {
 
   let Navigate=useNavigate()
   setTimeout(()=>{
-          Navigate('/')
+          Navigate('/blog')
   },3000)
   return (
     <div>Error404 Page Not found</div>

@@ -14,7 +14,7 @@ function MovieRow(props) {
             let trending = await axios.get(`https://api.themoviedb.org/3/${props.request}`)
 
             setMovies(trending.data.results)
-            // console.log(trending.data.results)
+            console.log(trending.data.results)
         }
 
         ApiCall()
